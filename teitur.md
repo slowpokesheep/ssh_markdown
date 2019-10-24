@@ -1,13 +1,45 @@
 # SSH
 ## Secure Shell 
 Hin örugga skel
+---
+### Telnet
+### 1969
+<img src="https://southwestcollection.files.wordpress.com/2014/01/14b-old-computer-lab-u185-6-bw.jpg" width="600">
 
 ---
 <img src="https://i.imgur.com/cf3iAjN.png" width="550">
 ---
 <img src="https://i.imgur.com/PG4VH2J.png" width="600">
 ---
+<img src="https://image.cnbcfm.com/api/v1/image/106114015-1567698570831gettyimages-817486028.jpeg?v=1569948524&w=678&h=381" width="600">
+---
+### Tatu Ylönen
+### 1995
+### SSH-1
+### Teknillinen korkeakoulu
+### Password sniffing
+---
+#### rlogin
+#### Telnet
+#### FTP
+#### rsh
+---
+<img src="https://image.slidesharecdn.com/sshnetsecure08-12695476747606-phpapp01/95/introduction-to-ssh-12-728.jpg?cb=1269602044" width="650">
+---
+### Það sem SSH lofar
+  * Strong encryption
+  * Strong authentication
+  * Authorization
+  * Integrity of communication
+  * Forwarding or tunneling
+---
+### Það sem SSH getur ekki lofað
+   * Vondar stillingar
+   * Spilltur root aðgangur
+   * Óöruggar heimamöppur
+---
 ```
+~ ssh -v teg6@hekla.rhi.hi.is
 OpenSSH_8.0p1, OpenSSL 1.0.2t  10 Sep 2019
 debug1: Reading configuration data /etc/ssh/ssh_config
 debug1: Connecting to hekla.rhi.hi.is [130.208.165.2] port 22.
