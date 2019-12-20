@@ -1,19 +1,20 @@
-## Pepega
-
----
-
-```console
-xinetd
-telnetd
-openssh-server
-openssh-client
-```
-
-xinetd - the extended Internet services daemon
+## SSH server 
+#### vs 
+## Telnet server
 
 ---
 
 ## ssh server
+
+```console
+openssh-server
+```
+
+* `sshd` - OpenSSH SSH daemon
+
+----
+
+## SSH config
 
 ```
 /etc/ssh/sshd_config
@@ -22,6 +23,12 @@ xinetd - the extended Internet services daemon
 ```config
 PasswordAuthentication no
 ```
+
+----
+
+<img src="assets/sshd_restart.png" width="900"/>
+
+<img src="assets/ssh_no_key.png" width="900"/>
 
 ----
 
@@ -48,6 +55,17 @@ HOST localhost
 
 ## Telnet server
 
+```console
+xinetd
+telnetd
+```
+
+* `xinetd` - the extended Internet services daemon
+
+* `telnetd` - DARPA telnet protocol server
+
+----
+
 ```
 /etc/xinetd.d/telnet
 ```
@@ -66,6 +84,10 @@ service telnet
   log_on_failure += USERID
 }
 ```
+
+----
+
+<img src="assets/telnet_login_disabled.png" width="900"/>
 
 ---
 
